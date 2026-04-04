@@ -455,3 +455,118 @@ p.member {
 .details {
   width: 150px;
 }
+.team {
+  width: 1318px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.gurus {
+  width: 1318px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+.teachers-grid {
+  width: 1318px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px;
+  gap: 20px;
+}
+.teacher-card {
+  width: 250px;
+  height: 280px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px #0000001a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+.teacher-img {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  padding: 5px 10px 10px 10px;
+}
+.teacher-title {
+  color: #ec6c5a;
+}
+.teacher-card a {
+  color: black;
+  padding: 5px;
+}
+.features {
+  width: 1318px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 150px;
+}
+.checklist-one,
+.checklist-two {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px 20px;
+}
+.checklist {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.checklist img {
+  width: 25px;
+  height: 25px;
+}
+.signup {
+  width: 1318px;
+  height: 200px;
+  background-color: #ffeed3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.signup-text {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px 10px 30px 150px;
+}
+.register {
+  color: white;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 25px;
+  padding: 30px 150px 30px 10px;
+}
+#email {
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  padding: 15px 100px 15px 15px;
+}
+#register-btn {
+  background-color: #4cc082;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 50px;
+  color: white;
+  cursor: pointer;
+}
