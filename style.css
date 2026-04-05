@@ -570,3 +570,77 @@ p.member {
   color: white;
   cursor: pointer;
 }
+.foot {
+  width: 1318px;
+  height: 400px;
+  background-color: #31333a;
+}
+.foot-box {
+  width: 1318px;
+  height: 350px;
+  background-color: #31333a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 100px 150px;
+  color: gray;
+}
+.foot-icon {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.foot-logo {
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+.social {
+  width: 200px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.foot-i {
+  width: 25px;
+  height: 25px;
+}
+.foot-group {
+  width: 450px;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.foot-grp {
+  width: 150px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.foot-grp p {
+  font-size: 12px;
+}
+.foot-grp h3 {
+  font-size: 16px;
+}
+.foot-rec {
+  width: 1318px;
+  height: 3px;
+  background-color: gray;
+}
+.bottom {
+  width: 1318px;
+  height: 50px;
+  background-color: #31333a;
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 150px;
+}
